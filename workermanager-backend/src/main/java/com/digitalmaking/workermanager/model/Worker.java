@@ -13,19 +13,19 @@ public class Worker implements Serializable {
     private String firstName;
     private String email;
     private String jobTitle;
-    private String phoneNumber;
+    private String phone;
     private String imageUrl;
     @Column(nullable = false, updatable = false)
     private String workerCode;
 
     public Worker() {}
 
-    public Worker(String lastName, String firstName, String email, String jobTitle, String phoneNumber, String imageUrl, String workerCode) {
+    public Worker(String lastName, String firstName, String email, String jobTitle, String phone, String imageUrl, String workerCode) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.email = email;
         this.jobTitle = jobTitle;
-        this.phoneNumber = phoneNumber;
+        this.phone = phone;
         this.imageUrl = imageUrl;
         this.workerCode = workerCode;
     }
@@ -71,11 +71,11 @@ public class Worker implements Serializable {
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return phone;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setPhoneNumber(String phone) {
+        this.phone = phone;
     }
 
     public String getImageUrl() {
@@ -102,7 +102,7 @@ public class Worker implements Serializable {
                 ", firstName='" + firstName + '\'' +
                 ", email='" + email + '\'' +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                ", phone='" + phone + '\'' +
                 ", imageUrl='" + imageUrl + '\'' +
                 ", workerCode='" + workerCode + '\'' +
                 '}';
