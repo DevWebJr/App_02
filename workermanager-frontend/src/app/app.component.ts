@@ -28,4 +28,14 @@ export class AppComponent implements OnInit{
       }
     });
   }
+
+  public onOpenModal(worker: Worker, mode: string): void {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.style.display = 'none';
+    button.setAttribute('data-bs-togle','modal');
+    if(mode === 'add') {
+      button.setAttribute('data-bs-target','modal');
+    }
+  }
 }
