@@ -29,7 +29,7 @@ export class AppComponent implements OnInit{
     });
   }
 
-  public onOpenModal( mode: string, worker?: Worker | null): void {
+  public onOpenModal(mode: string, worker?: Worker): void {
     const button = document.createElement('button');
     const container = document.getElementById("main-container")
     button.type = 'button';

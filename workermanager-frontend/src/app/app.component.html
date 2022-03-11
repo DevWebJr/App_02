@@ -1,4 +1,29 @@
-<app-header></app-header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Avengers</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">
+
+          <button type="button" class="btn btn-outline-secondary"
+                  (click)="onOpenModal('add')">
+            Add
+          </button>
+          <span class="visually-hidden">(current)</span>
+        </a>
+      </li>
+    </ul>
+
+    <form class="d-flex">
+      <input class="form-control me-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 <div *ngFor="let worker of workers" class="card mb-3 text-center m-4 border-success p-2" id="main-container">
   <h2 class="card-header text-secondary">{{worker?.firstName}} - {{worker?.lastName}}</h2>
@@ -15,10 +40,10 @@
   </div>
   <div class="card-body">
     <div class="float-right btn-group btn-group-sm">
-      <a class="btn btn-info tooltips" data-popper-placement="top" data-original-title="Edit">
+      <a (click)="onOpenModal('edit', worker)" class="btn btn-info tooltips" data-popper-placement="top" data-original-title="Edit">
         <i class="fa fa-pencil"></i>
       </a>
-      <a class="btn btn-danger tooltips" data-popper-placement="top" data-original-title="Delete">
+      <a (click)="onOpenModal('delete', worker)" class="btn btn-danger tooltips" data-popper-placement="top" data-original-title="Delete">
         <i class="fa fa-times"></i>
       </a>
     </div>
