@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<div *ngFor="let worker of workers" class="card mb-3 text-center m-4 border-success p-2">
+<div *ngFor="let worker of workers" class="card mb-3 text-center m-4 border-success p-2" id="main-container">
   <h2 class="card-header text-secondary">{{worker?.firstName}} - {{worker?.lastName}}</h2>
   <div class="card-body">
     <h4 class="card-title text-success">{{worker?.jobTitle}}</h4>

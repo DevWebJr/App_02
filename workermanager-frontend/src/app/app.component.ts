@@ -29,13 +29,22 @@ export class AppComponent implements OnInit{
     });
   }
 
-  public onOpenModal(worker: Worker, mode: string): void {
+  public onOpenModal( mode: string, worker?: Worker | null): void {
     const button = document.createElement('button');
+    const container = document.getElementById("main-container")
     button.type = 'button';
     button.style.display = 'none';
     button.setAttribute('data-bs-togle','modal');
     if(mode === 'add') {
-      button.setAttribute('data-bs-target','modal');
+      button.setAttribute('data-bs-target','#addWorkerModal');
     }
+    if(mode === 'edit') {
+      button.setAttribute('data-bs-target','#editWorkerModal');
+    }
+    if(mode === 'delete') {
+      button.setAttribute('data-bs-target','#deleteWorkerModal');
+    }
+    container?.appendChild(button);
+    button.click();
   }
 }
