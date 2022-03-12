@@ -1,0 +1,110 @@
+{
+    "id": 1,
+    "lastName": "Rogers",
+    "firstName": "Steve",
+    "email": "captainamerica@mail.com",
+    "jobTitle": "Captain",
+    "imageUrl": "https://www.anniversaire-enfant.fr/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/0/1/014300069.jpg",
+    "workerCode": "f551d480-cad6-41d1-ad93-59a302c17dd7",
+    "phoneNumber": "+330001110001"
+},
+{
+    "id": 2,
+    "lastName": "Lang",
+    "firstName": "Scott",
+    "email": "antman@mail.com",
+    "jobTitle": "Electronics Expert",
+    "imageUrl": "https://c4.wallpaperflare.com/wallpaper/858/537/85/ant-man-ant-man-and-the-wasp-4k-wallpaper-thumb.jpg",
+    "workerCode": "8d0e0d71-4b47-48a1-8f44-b8160d8d43b9",
+    "phoneNumber": "+330002220002"
+},
+{
+    "id": 3,
+    "lastName": "Stark",
+    "firstName": "Tony",
+    "email": "ironman@mail.com",
+    "jobTitle": "Scientist",
+    "imageUrl": "https://cdn.farantube.com/wp-content/uploads/2021/11/27192904/Fortnite-Tony-Stark-Skin.jpg",
+    "workerCode": "05d799c9-a7bc-4411-91f1-497647b174da",
+    "phoneNumber": "+330003330003"
+},
+{
+    "id": 4,
+    "lastName": "Banner",
+    "firstName": "Bruce",
+    "email": "hulk@mail.com",
+    "jobTitle": "Doctor",
+    "imageUrl": "https://cdn.wallpapersafari.com/28/61/YQsVaO.jpg",
+    "workerCode": "56bebfae-1701-408d-8688-6f21b9bc002c",
+    "phoneNumber": "+330004440004"
+},
+{
+    "id": 5,
+    "lastName": "Parker",
+    "firstName": "Peter",
+    "email": "spiderman@mail.com",
+    "jobTitle": "Student",
+    "imageUrl": "https://jeu.video/wp-content/uploads/2018/08/marvels-spider-man-ps4-trailer-just-the-facts-combat_bq5w.620.jpg",
+    "workerCode": "9f6cca8b-cde7-4d63-99b8-efbdc3d209bf",
+    "phoneNumber": "+330005550005"
+},
+{
+    "id": 6,
+    "lastName": "Quill",
+    "firstName": "Peter",
+    "email": "starlord@mail.com",
+    "jobTitle": "Explorer",
+    "imageUrl": "https://i.pinimg.com/originals/c7/3c/5b/c73c5b967783be006ed2400b81c74973.jpg",
+    "workerCode": "2668548f-f3a7-47af-9682-fe38f52ea992",
+    "phoneNumber": "+330006660006"
+},
+{
+    "id": 7,
+    "lastName": "Strange",
+    "firstName": "Stephen",
+    "email": "doctorstrange@mail.com",
+    "jobTitle": "Doctor",
+    "imageUrl": "https://images3.alphacoders.com/105/1056297.jpg",
+    "workerCode": "9ff11d44-9437-4074-9d2d-2814f4705845",
+    "phoneNumber": "+330007770007"
+},
+{
+    "id": 8,
+    "lastName": "Romanoff",
+    "firstName": "Natasha",
+    "email": "blackwidow@mail.com",
+    "jobTitle": "Spy",
+    "imageUrl": "https://pm1.narvii.com/7082/fd6db6784836d3b3fac1b33daef2c9051cec8165r1-675-1100v2_hq.jpg",
+    "workerCode": "e635e648-752a-46b5-b032-e77d1c52b70b",
+    "phoneNumber": "+330008880008"
+},
+{
+    "id": 9,
+    "lastName": "Barton",
+    "firstName": "Clint",
+    "email": "hawkeye@mail.com",
+    "jobTitle": "Special Agent",
+    "imageUrl": "https://cdn.wallpapersafari.com/84/11/C8OSrs.jpg",
+    "workerCode": "b0d03c39-1988-4b64-868a-011fa703f8fa",
+    "phoneNumber": "+330009990009"
+},
+{
+    "id": 10,
+    "lastName": "Fury",
+    "firstName": "Nick",
+    "email": "nickfury@mail.com",
+    "jobTitle": "Agent",
+    "imageUrl": "https://i.pinimg.com/550x/df/14/c0/df14c028f8bf283a4dc8e01b58a1e581.jpg",
+    "workerCode": "d9m58f69-1988-4b64-868a-222ge703g7r9",
+    "phoneNumber": "+330000100010"
+},
+ {
+     "id": 11,
+     "lastName": "",
+     "firstName": "T'Chala",
+     "email": "blackpanther@mail.com",
+     "jobTitle": "Prince of Wakanda",
+     "imageUrl": "https://www.presse-citron.net/app/uploads/2019/01/the-black-panther-film-marvel-e1547662141410.jpg",
+     "workerCode": "de4d28c4-4496-418f-b340-2dd504733995",
+     "phoneNumber": "+330000100010"
+ }

@@ -70,11 +70,11 @@ public class Worker implements Serializable {
         this.jobTitle = jobTitle;
     }
 
-    public String getPhoneNumber() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhoneNumber(String phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
